@@ -1,19 +1,19 @@
 # Linux Administration - Task1 <img src="linux_logo.png" width="200" height="150" align="center">
 
 ## Questions:
-* 1- [List Linux distributions](#Linux-Distributions)
-* 2- [From the slides what is the man command used for?](#Man-Command)
-* 3- [What is the difference between rm and rmdir using man command?](#Rm-vs-Rmdir)
-* 4- [Create the following hierarchy under your home directory](#Create-Hierarchy) <img src="q4.png">
-* 5- [Copy the /etc/passwd file to your home directory making its name is mypasswd](#Copy-Passwd)
-* 6- [Rename this new file to be oldpasswd](#Rename-Passwd)
-* 7- [You are in /usr/bin, list four ways to go to your home directory](#Go-Home)
-* 8- [List Linux commands in /usr/bin that start with letter w](#W-Commands)
-* 9- [What command type are used for? (from the slide)](#Command-Type)
-* 10- [Show 2 types of command file in /usr/bin that start with letter c](#C-Commands)
-* 11- [Using man command find the command to read file](#Read-File)
-* 12- [What is the usage of apropos command?](#Apropos-Command)
-* 13- [Bash Script](#Bash-Script) <img src="bash.png">
+* 1- [List Linux distributions](#1-linux-distributions)
+* 2- [From the slides what is the man command used for?](#2-man-command)
+* 3- [What is the difference between rm and rmdir using man command?](#3-rm-vs-rmdir)
+* 4- [Create the following hierarchy under your home directory](#4-create-hierarchy) <img src="q4.png">
+* 5- [Copy the /etc/passwd file to your home directory making its name is mypasswd](#5-copy-passwd)
+* 6- [Rename this new file to be oldpasswd](#6-rename-passwd)
+* 7- [You are in /usr/bin, list four ways to go to your home directory](#7-go-home)
+* 8- [List Linux commands in /usr/bin that start with letter w](#8-w-commands)
+* 9- [What command type are used for? (from the slide)](#9-command-type)
+* 10- [Show 2 types of command file in /usr/bin that start with letter c](#10-c-commands)
+* 11- [Using man command find the command to read file](#11-read-file)
+* 12- [What is the usage of apropos command?](#12-apropos-command)
+* 13- [Bash Script](#13-bash-script) <img src="bash.png">
 
 ## Answers:
 
