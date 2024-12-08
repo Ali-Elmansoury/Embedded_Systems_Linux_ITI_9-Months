@@ -4,3 +4,5 @@
 
 ### **Table of Contents**
 1. [Task1_adminLinux](Task1_adminLinux/Task1_adminLinux.md)
+
+2. [Task2_adminLinux](Task2_adminLinux/Task2_adminLinux.md)
