@@ -6,3 +6,5 @@
 1. [Task1_adminLinux](Task1_adminLinux/Task1_adminLinux.md)
 
 2. [Task2_adminLinux](Task2_adminLinux/Task2_adminLinux.md)
+
+3. [Task3_adminLinux](Task3_adminLinux/Task3_adminLinux.md)

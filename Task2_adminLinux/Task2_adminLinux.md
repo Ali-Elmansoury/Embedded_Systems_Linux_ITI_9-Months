@@ -91,20 +91,20 @@ int main(void)
 
 ### Errors:
 
-1. **Error Screenshot 1**  🌝 
+1. **Error Screenshot 1**  
    <img src="errors.png">
 
-2. **Error Screenshot 2**  🌝
+2. **Error Screenshot 2**  
    <img src="errors2.png">
 
 ---
 
 ### After Corrections:
 
-1. **Function Correction 1** 🌝 
+1. **Function Correction 1**  
    <img src="func_corr.png">
 
-2. **Main Correction**  🌝
+2. **Main Correction**  
    <img src="func_corr2.png">
 
 ---
