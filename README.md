@@ -17,6 +17,8 @@
 
 7. [Task5_adminLinux](Linux_Admin/Task5_adminLinux/README.md)
 
+8. [Task6_adminLinux](Linux_Admin/Task6_adminLinux/README.md)
+
 ---
 
 *Ali Mohamed Ali Elmansoury*  
