@@ -19,7 +19,9 @@
 
 8. [Task6_adminLinux](Linux_Admin/Task6_adminLinux/README.md)
 
-9. [Cross_Toolchain-ng_Test](Embedded_Linux_Kitchen/Toolchain_Test/test.png)
+9. [Embedded_AVR_Drivers](Embedded_AVR_Drivers/)
+
+10. [Cross_Toolchain-ng_Test](Embedded_Linux_Kitchen/Toolchain_Test/test.png)
 
 ---
 
