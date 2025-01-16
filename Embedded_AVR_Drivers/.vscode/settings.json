@@ -1,6 +1,0 @@
-{
-    "cmake.sourceDirectory": "/home/ali/Embedded_AVR_Drivers/COTS/APP/Lab1",
-    "files.associations": {
-        "mport.h": "c"
-    }
-}
