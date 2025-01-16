@@ -23,7 +23,11 @@
 
 10. [Embedded_ARM_Drivers](Embedded_ARM_Drivers/)
 
-11. [Cross_Toolchain-ng_Test](Embedded_Linux_Kitchen/Toolchain_Test/test.png)
+11. [Task1_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task1_Cross_Toolchain-ng_Test/test.png)
+
+12. [Task2_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task2_Qemu_RPI_Uboot/)
+
+13. [Task3_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task3)
 
 ---
 
