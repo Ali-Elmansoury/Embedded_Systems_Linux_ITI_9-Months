@@ -1,6 +1,6 @@
 # ITI-ES-9Months
-## This is a repository for ITI-Embedded Systems 9 Months Track
-### This repository contains all the tasks and projects done during the track
+## This is a repository for ITI-Embedded Systems 9 Months Track - Embedded Linux Kitchen Branch
+### This repository contains all the tasks and projects done during the course
 
 ### **Table of Contents**
 1. [Task1_adminLinux](Linux_Admin/Task1_adminLinux/README.md)
@@ -19,15 +19,11 @@
 
 8. [Task6_adminLinux](Linux_Admin/Task6_adminLinux/README.md)
 
-9. [Embedded_AVR_Drivers](Embedded_AVR_Drivers/)
+9. [Task1_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task1_Cross_Toolchain-ng_Test/test.png)
 
-10. [Embedded_ARM_Drivers](Embedded_ARM_Drivers/)
+10. [Task2_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task2_Qemu_RPI_Uboot/)
 
-11. [Task1_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task1_Cross_Toolchain-ng_Test/test.png)
-
-12. [Task2_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task2_Qemu_RPI_Uboot/)
-
-13. [Task3_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task3)
+11. [Task3_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task3)
 
 ---
 
