@@ -4,3 +4,7 @@
 *.elf
 *.exe
 build
+Emulated_sdCard/
+crosstool-ng/
+u-boot/
+
