@@ -4,7 +4,7 @@
 
 ### **Table of Contents**
 
-10. [Embedded_ARM_Drivers](Embedded_ARM_Drivers/)
+1. [Embedded_ARM_Drivers](Embedded_ARM_Drivers/)
 
 ---
 
