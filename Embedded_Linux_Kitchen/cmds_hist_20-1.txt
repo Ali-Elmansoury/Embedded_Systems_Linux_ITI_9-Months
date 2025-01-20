@@ -1,0 +1,1000 @@
+ 1235  su user1
+ 1236  ls -ld
+ 1237  cd ..
+ 1238  ls -ld testdir
+ 1239  chmod +t testdir
+ 1240  cd testdir
+ 1241  ls
+ 1242  ls -ld
+ 1243  cd ..
+ 1244  clear
+ 1245  su user1
+ 1246  ps -u user1
+ 1247  sudo userdel -r user1
+ 1248  ps -u user2
+ 1249  sudo userdel -r user2
+ 1250  getent passwd | grep user1
+ 1251  ped
+ 1252  pwd
+ 1253  ls
+ 1254  cd arm-Elmansoury-linux-uclibcgnueabihf/
+ 1255  cd bin
+ 1256  pwd
+ 1257  cd ~
+ 1258  gedit .bashrc
+ 1259  source .bashrc
+ 1260  gedit .bashrc
+ 1261  source .bashrc
+ 1262  git checkout Embedded_Linux_adminLinux_Task6
+ 1263  git checkout Embedded_Linux_Task6_adminLinux
+ 1264  git add .
+ 1265  git rm --cached Embedded_Linux_Kitchen/crosstool-ng/
+ 1266  git rm -f --cached Embedded_Linux_Kitchen/crosstool-ng/
+ 1267  git add .
+ 1268  git rm -f --cached Embedded_Linux_Kitchen/crosstool-ng/
+ 1269  git commit -m 'Finally Task6 finished and edit README'
+ 1270  git push
+ 1271  git push --set-upstream origin Embedded_Linux_Task6_adminLinux 
+ 1272  git checkout main
+ 1273  git pull 
+ 1274  git checkout -b Embedded_Linux_Kitchen
+ 1275  cd Embedded_Linux_Kitchen/
+ 1276  cd To
+ 1277  cd Toolchain\ Test/
+ 1278  cd ..
+ 1279  mv Toolchain\ Test Toolchain_Test
+ 1280  cd Toolchain_Test/
+ 1281  arm-mans main.c -o main
+ 1282  sudo apt install -y qemu qemu-kvm libvirt-daemon libvirt-clients bridge-utils virt-manager
+ 1283  sudo apt install -y qemu qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virt-manager virtinst cpu-checker
+ 1284  sudo apt install -y qemu-system qemu-user qemu-user-static
+ 1285  sudo apt install -y qemu-system-arm qemu-system-mips qemu-system-ppc qemu-system-sparc qemu-system-x86
+ 1286  sudo systemctl enable libvirtd
+ 1287  sudo systemctl start libvirtd
+ 1288  sudo systemctl status libvirtd
+ 1289  sudo usermod -aG kvm $USER
+ 1290  sudo usermod -aG libvirt $USER
+ 1291  cd x-tools/
+ 1292  ls
+ 1293  cd arm-Elmansoury-linux-uclibcgnueabihf/
+ 1294  ls
+ 1295  cd sysroot/
+ 1296  pwd
+ 1297  cd ..
+ 1298  ls | grep lab
+ 1299  ls
+ 1300  ls | grep Lab
+ 1301  cd ..
+ 1302  cd Embedded_Linux_Kitchen/Toolchain_Test/
+ 1303  arm-mans main.c -o main
+ 1304  file main
+ 1305  qemu-arm -L /home/ali/x-tools/arm-Elmansoury-linux-uclibcgnueabihf/arm-Elmansoury-linux-uclibcgnueabihf/sysroot main
+ 1306  cd ..
+ 1307  ls
+ 1308  git add Toolchain_Test/
+ 1309  git commit -m 'Toolchain Test'
+ 1310  git push
+ 1311  git push --set-upstream origin Embedded_Linux_Kitchen 
+ 1312  cd ..
+ 1313  git add README.md 
+ 1314  git commit -m 'Update README'
+ 1315  git push
+ 1316  git add Embedded_AVR_Drivers/
+ 1317  git add README.md 
+ 1318  git commit -m 'Embedded AVR Drivers added and update README'
+ 1319  git push
+ 1320  git checkout main
+ 1321  git pull
+ 1322  git checkout Embedded_Linux_Kitchen
+ 1323  date
+ 1324  echo $(date)
+ 1325  code PressureTemp.sh
+ 1326  sudo chmod +x PressureTemp.sh 
+ 1327  source PressureTemp.sh 
+ 1328  source PressureTemp.sh 4 5
+ 1329  ls
+ 1330  cat tempLog.log 
+ 1331  cat pressureLog.log 
+ 1332  source PressureTemp.sh 4 5
+ 1333  cat tempLog.log 
+ 1334  source PressureTemp.sh 4 5
+ 1335  cat tempLog.log 
+ 1336  cat pressureLog.log 
+ 1337  exit
+ 1338  source PressureTemp.sh 
+ 1339  ./PressureTemp.sh 
+ 1340  source PressureTemp.sh 
+ 1341  ./PressureTemp.sh 
+ 1342  man mkdir
+ 1343  ./PressureTemp.sh 
+ 1344  ./PressureTemp.sh 2 3
+ 1345  man fopen
+ 1346  ./PressureTemp.sh 
+ 1347  history >> histLog.txt
+ 1348  history
+ 1349  clear
+ 1350  exit
+ 1351  sudo apt install acpi
+ 1352  acpi
+ 1353  acpi -b
+ 1354  sudo passwd rana
+ 1355  man arpscan
+ 1356  arpscan --help
+ 1357  arp-scan --help
+ 1358  sudo arp-scan -l
+ 1359  exit
+ 1360  ./ct-ng menuconfig
+ 1361  ./ct-ng list-samples
+ 1362  ./ct-ng list-samples | grep rpi3
+ 1363  cfdisk sd.img
+ 1364  ls /dev/loop*
+ 1365  mkfs.vfat -f16 -n boot /dev/loop11p1
+ 1366  mkfs.vfat -F 16 -n boot /dev/loop11p1
+ 1367  sudo mkfs.vfat -F 16 -n boot /dev/loop11p1
+ 1368  mkfs.ext4 -L rootfs /dev/loop11p2
+ 1369  sudo mkfs.ext4 -L rootfs /dev/loop11p2
+ 1370  dmseg
+ 1371  dmesg
+ 1372  sudo dmesg
+ 1373  ls
+ 1374  sudo dpkg imager_1.8.5_amd64.deb
+ 1375  dkg-deb --help
+ 1376  dpkg-deb --help
+ 1377  sudo dpkg -i imager_1.8.5_amd64.deb
+ 1378  sudo apt install rpi-imager 
+ 1379  apt --fix-broken install
+ 1380  sudo apt --fix-broken install
+ 1381  mkdir sdImg
+ 1382  cd sdImg/
+ 1383  dd if=/dev/zero of=sd.img bs=1M count=1024
+ 1384  cfdisk sd.img
+ 1385  losetup --partscan -f --show sd.img 
+ 1386  sudo losetup --partscan -f --show sd.img 
+ 1387  ls /dev/loop*
+ 1388  cd ..
+ 1389  ls
+ 1390  cd crosstool-ng/
+ 1391  ./ct-ng list-samples | grep rpi3
+ 1392  ./ct-ng aarch64-rpi3-linux-gnu
+ 1393  ./ct-ng menuconfig
+ 1394  ./ct-ng build
+ 1395  cd ~/x-tools/
+ 1396  ls
+ 1397  cd ../ITI-9Months-ES/
+ 1398  ls
+ 1399  cd Embedded_Linux_Kitchen/
+ 1400  ls
+ 1401  cd sdImg/
+ 1402  ls
+ 1403  cat sd.img 
+ 1404  cd ..
+ 1405  mv sdImg Emulated_sdCard
+ 1406  ls
+ 1407  cd Emulated_sdCard/
+ 1408  ls
+ 1409  cd ..
+ 1410  cd Emulated_sdCard/
+ 1411  mkdir mountPoint
+ 1412  sudo mount /dev/loop11p1 mountPoint 
+ 1413  sudo umount mountPoint 
+ 1414  rm mountPoint/ -r
+ 1415  mkdir boot rootfs
+ 1416  sudo mount /dev/loop11p1 boot
+ 1417  sudo mount /dev/loop11p2 rootfs
+ 1418  lsblk
+ 1419  sudo fdisk -l
+ 1420  sudo fdisk /dev/sdb
+ 1421  sudo fdisk -i /dev/sdb
+ 1422  sudo fdisk -l /dev/sdb
+ 1423  sudo apt install f3
+ 1424  f3probe --test /dev/sdb
+ 1425  f3probe --help
+ 1426  f3probe --usage /dev/sdb
+ 1427  f3probe -l /dev/sdb
+ 1428  sudo f3probe -l /dev/sdb
+ 1429  sudo parted /dev/sdb
+ 1430  sudo mkfs.fat -F 32 /dev/sdb1
+ 1431  sudo dd if=/dev/zero of=/dev/sdb bs=1M count=2048
+ 1432  sudo f3probe -l /dev/sdb
+ 1433  lsblk
+ 1434  sudo f3probe -l /dev/sdb
+ 1435  qemu-system-arm -M ?
+ 1436  sudo dmesg
+ 1437  sudo apt install steam
+ 1438  wine SimulIDE_0.0.2.exe 
+ 1439  exit
+ 1440  curl ascii.live/rick
+ 1441  curl ascii.live/nyan
+ 1442  curl ascii.live/can-you-hear-me
+ 1443  curl ascii.live/playstation
+ 1444  gcc test.c
+ 1445  cd ITI-9Months-ES/
+ 1446  ls
+ 1447  cd Embedded_Linux_Kitchen/
+ 1448  ls
+ 1449  git clone git@github.com:u-boot/u-boot.git
+ 1450  exit
+ 1451  sudo mkdir proc etc bin usr sbin lib dev sys
+ 1452  ls
+ 1453  touch ali
+ 1454  vim ali
+ 1455  ls
+ 1456  ls /dev/loops*
+ 1457  ls /dev/loop*
+ 1458  mkdir Task2_Qemu_RPI_Uboot
+ 1459  ls
+ 1460  mv Task2_Qemu_RPI_Uboot/ Embedded_Linux_Kitchen/
+ 1461  cd Embedded_Linux_Kitchen/
+ 1462  cd ..
+ 1463  git add .
+ 1464  git commit -m 'Task 2 Embedded Linux Uboot'
+ 1465  git push
+ 1466  git add .
+ 1467  git commit -m 'Task 2 Embedded Linux Uboot'
+ 1468  git push
+ 1469  git rm --cached Embedded_Linux_Kitchen/crosstool-ng
+ 1470  git rm --cached Embedded_Linux_Kitchen/u-boot/
+ 1471  git rm --cached Embedded_Linux_Kitchen/Emulated_sdCard/
+ 1472  git rm -r --cached Embedded_Linux_Kitchen/Emulated_sdCard/
+ 1473  git push
+ 1474  git rm -r --cached Embedded_Linux_Kitchen/Emulated_sdCard/
+ 1475  git rm --cached Embedded_Linux_Kitchen/u-boot/
+ 1476  git rm --cached Embedded_Linux_Kitchen/crosstool-ng
+ 1477  git commit -m 'Task 2 Embedded Linux Uboot'
+ 1478  git push
+ 1479  git filter-repo --path Embedded_Linux_Kitchen/Emulated_sdCard/sd.img --invert-paths
+ 1480  sudo apt install git-filter-repo
+ 1481  git filter-repo --path Embedded_Linux_Kitchen/Emulated_sdCard/sd.img --invert-paths
+ 1482  git filter-repo --path Embedded_Linux_Kitchen/Emulated_sdCard/sd.img --invert-paths --force
+ 1483  git commit -m 'Task 2 Embedded Linux Uboot'
+ 1484  git push
+ 1485  git add .
+ 1486  git rm -r --cached Embedded_Linux_Kitchen/Emulated_sdCard/
+ 1487  git rm --cached Embedded_Linux_Kitchen/crosstool-ng
+ 1488  git rm --cached Embedded_Linux_Kitchen/u-boot/
+ 1489  git rm --cached Embedded_Linux_Kitchen/u-boot/ -f
+ 1490  git rm --cached Embedded_Linux_Kitchen/crosstool-ng -f
+ 1491  git commit -m 'Task 2 Embedded Linux Uboot'
+ 1492  git push
+ 1493  sudo minicom -s /dev/ttyUSB0
+ 1494  exit
+ 1495  mkdir RomarioAvrRepo
+ 1496  git clone git@github.com:RomarioBasm/ITI_ES_INTAKE45.git
+ 1497  cd RomarioAvrRepo/
+ 1498  git clone git@github.com:RomarioBasm/ITI_ES_INTAKE45.git
+ 1499  git checkout Ali_Mohamed_Ali
+ 1500  git branch
+ 1501  cd ITI_ES_INTAKE45/
+ 1502  git checkout Ali_Mohamed_Ali
+ 1503  git add .
+ 1504  git commit -m 'Ali's Embedded AVR Drivers & Tasks, Note: I finished all of them by SevenSeg lab but forgot to push'
+ 1505  git commit -m "Ali's Embedded AVR Drivers & Tasks, Note: I finished all of them by SevenSeg lab but forgot to push"
+ 1506  git reset --mixed HEAD~1
+ 1507  git add .
+ 1508  git commit -m "Ali's Embedded AVR Drivers & Tasks, Note: I finished all of them by SevenSeg lab but forgot to push"
+ 1509  git reset --soft HEAD~1
+ 1510  git reset .
+ 1511  git add .
+ 1512  git commit -m "Ali's Embedded AVR Drivers & Tasks, Note: I finished all of them by SevenSeg lab but forgot to push"
+ 1513  git status
+ 1514  cd ..
+ 1515  git clone git@github.com:RomarioBasm/ITI_ES_INTAKE45.git
+ 1516  cd ITI_ES_INTAKE45/
+ 1517  git checkout Ali_Mohamed_Ali
+ 1518  git add .
+ 1519  git commit -m "Ali's Embedded AVR Drivers & Tasks, Note: I finished all of them by SevenSeg lab but forgot to push"
+ 1520  git push
+ 1521  git add .
+ 1522  git commit -m "Ali's Embedded AVR Drivers & Tasks"
+ 1523  ls
+ 1524  git add Embedded_AVR_Drivers/
+ 1525  git commit -m "Ali's Embedded AVR Drivers & Tasks"
+ 1526  git log
+ 1527  git reset --hard 46201de406ff1ca4d9167a109cfe914dc5cb157c
+ 1528  git push
+ 1529  cd ..
+ 1530  git clone git@github.com:RomarioBasm/ITI_ES_INTAKE45.git
+ 1531  cd ITI_ES_INTAKE45/
+ 1532  git checkout Ali_Mohamed_Ali
+ 1533  git pull
+ 1534  git add .
+ 1535  cd ..
+ 1536  git clone git@github.com:RomarioBasm/ITI_ES_INTAKE45.git
+ 1537  cd ITI_ES_INTAKE45/
+ 1538  git checkout Ali_Mohamed_Ali
+ 1539  git rm -rf .
+ 1540  git commit -m "Remove all files"
+ 1541  git push
+ 1542  touch README.md
+ 1543  git add .
+ 1544  git commit -m "Ali's Embedded AVR Drivers & Tasks, Note: I finished all of them by SevenSeg lab but forgot to push"
+ 1545  git log
+ 1546  git stash
+ 1547  git reset --hard c55b6fe27375a41d799eae57b202caa9a5d2ddb3
+ 1548  git add .
+ 1549  git status
+ 1550  git commit -m "Ali's Embedded AVR Drivers & Tasks, I finished all of them by SevenSeg lab but forgot to push"
+ 1551  git push
+ 1552  git rm -rf .
+ 1553  git commit -m "Remove all files"
+ 1554  git push
+ 1555  cd ..
+ 1556  git clone git@github.com:RomarioBasm/ITI_ES_INTAKE45.git
+ 1557  cd ITI_ES_INTAKE45/
+ 1558  git checkout Ali_Mohamed_Ali
+ 1559  touch README.md
+ 1560  git add .
+ 1561  git status
+ 1562  git commit -m "Ali's Embedded AVR Drivers & Tasks,  I finished all of them by SevenSeg lab but forgot to push"
+ 1563  git push
+ 1564  git pull
+ 1565  ls
+ 1566  git status
+ 1567  git add .
+ 1568  git status
+ 1569  git rm -rf .
+ 1570  git commit -m "Remove all files"
+ 1571  git push
+ 1572  git reset --hard c55b6fe27375a41d799eae57b202caa9a5d2ddb3
+ 1573  git ls
+ 1574  git status
+ 1575  git pull
+ 1576  git add .
+ 1577  git status
+ 1578  git reset --hard c55b6fe27375a41d799eae57b202caa9a5d2ddb3
+ 1579  git status
+ 1580  git checkout Ali_Mohamed_Ali
+ 1581  git pull
+ 1582  git checkout --orphan new_Ali_Mohamed_Ali
+ 1583  git rm -rf .
+ 1584  git commit --allow-empty -m "Reset branch to an empty state"
+ 1585  git branch -M Ali_Mohamed_Ali
+ 1586  git reset --hard main
+ 1587  git push origin Ali_Mohamed_Ali --force
+ 1588  git log origin/Ali_Mohamed_Ali
+ 1589  git add .
+ 1590  git status
+ 1591  git add -f Embedded_AVR_Drivers/
+ 1592  git status
+ 1593  git log origin/Ali_Mohamed_Ali
+ 1594  git commit -m "Ali's Embedded AVR Drivers & Tasks, Note: I finished all of them by SevenSeg lab but forgot to push"
+ 1595  git push
+ 1596  git add .
+ 1597  git status
+ 1598  git commit -m "Ali's Embedded AVR Drivers & Tasks, Note: I finished all of them by SevenSeg lab but forgot to push, Now all good"
+ 1599  git push
+ 1600  git rm -rf .
+ 1601  git commit -m "Remove all files"
+ 1602  git add .
+ 1603  git status
+ 1604  git commit -m "Ali's Embedded AVR Drivers & Tasks, Note: I finished all of them by SevenSeg lab but forgot to push, Now all goodd"
+ 1605  git push
+ 1606  git rm -rf .
+ 1607  git add .
+ 1608  git status
+ 1609  git checkout --orphan new_Ali_Mohamed_Ali
+ 1610  git rm -rf .
+ 1611  git commit --allow-empty -m "Reset branch to an empty state"
+ 1612  git branch -M Ali_Mohamed_Ali
+ 1613  git reset --hard main
+ 1614  git push origin Ali_Mohamed_Ali --force
+ 1615  git log origin/Ali_Mohamed_Ali
+ 1616  git add .
+ 1617  git status
+ 1618  git commit -m "Ali's Embedded AVR Drivers & Tasks, Note: I finished all of them by SevenSeg lab but forgot to push"
+ 1619  git push
+ 1620  cd ~/x-tools/arm-Elmansoury-linux-uclibcgnueabihf/bin/
+ 1621  ls
+ 1622  find . -u-boot
+ 1623  ls -a
+ 1624  cd ITI-9Months-ES/
+ 1625  ls -a
+ 1626  git status --untracked-files=all
+ 1627  git add .
+ 1628  git commit -m "updates"
+ 1629  git push
+ 1630  git pull
+ 1631  cd ITI-9Months-ES/
+ 1632  cd Embedded_Linux_Kitchen/
+ 1633  ls
+ 1634  cd ..
+ 1635  git checkout main
+ 1636  ls
+ 1637  cd Embedded_Linux_Kitchen/
+ 1638  ls
+ 1639  git check-ignore -v *
+ 1640  df -h
+ 1641  ls -la
+ 1642  ls
+ 1643  cd ..
+ 1644  ls
+ 1645  cd Embedded_Linux_Kitchen/
+ 1646  ls
+ 1647  ls -la
+ 1648  git clone git@github.com:u-boot/u-boot.git
+ 1649  git checkout v2025.01
+ 1650  git add RPi3_Firmware/ Task1_Toolchain_Test/ Task2_Qemu_RPI_Uboot/
+ 1651  ❯ git commit -m 'Task 2 Embedded Linux Uboot'
+ 1652  git commit -m 'Task 2 Embedded Linux Uboot'
+ 1653  cd ..
+ 1654  git add .
+ 1655  git commit -m 'Task 2 Embedded Linux Uboot'
+ 1656  git push
+ 1657  git remote add origin git@github.com:Ali-Elmansoury/ITI-9Months-ES.git
+ 1658  git push -u origin Embedded_Linux_Kitchen
+ 1659  git push -u origin Embedded_Linux_Kitchen --force
+ 1660  git checkout main
+ 1661  git merge Embedded_Linux_Kitchen
+ 1662  git commit
+ 1663  git lfs track "*.webm"
+ 1664  git add .gitattributes
+ 1665  git add Embedded_Linux_Kitchen/Task2_Qemu_RPI_Uboot/rpi_uboot.webm
+ 1666  git commit
+ 1667  git push
+ 1668  git push --set-upstream origin main 
+ 1669  git push --set-upstream origin main --force
+ 1670  git pull
+ 1671  git checkout -b Embedded_AVR_Drivers
+ 1672  git add .
+ 1673  git commit -m 'Embedded AVR Drivers'
+ 1674  git push
+ 1675  git push --set-upstream origin Embedded_AVR_Drivers 
+ 1676  git checkout main
+ 1677  git pull
+ 1678  git add Embedded_Linux_Kitchen/Task2_Qemu_RPI_Uboot/rpi_uboot.webm
+ 1679  git commit -m "Update rpi_uboot.webm locally"
+ 1680  git pull origin main
+ 1681  git checkout -b Embedded_ARM_Drivers
+ 1682  git add .
+ 1683  git commit -m 'Embedded ARM Drivers'
+ 1684  git push --set-upstream origin Embedded_ARM_Drivers 
+ 1685  git checkout main
+ 1686  git pull
+ 1687  git checkout Embedded_Linux_Kitchen 
+ 1688  git lfs track "*.webm"
+ 1689  git add .gitattributes
+ 1690  git rm --cached Embedded_Linux_Kitchen/Task2_Qemu_RPI_Uboot/rpi_uboot.webm
+ 1691  git add Embedded_Linux_Kitchen/Task2_Qemu_RPI_Uboot/rpi_uboot.webm
+ 1692  git commit -m "Fix LFS tracking for rpi_uboot.webm"
+ 1693  git push origin Embedded_Linux_Kitchen
+ 1694  git checkout main
+ 1695  git pull
+ 1696  git checkout Embedded_Linux_Kitchen 
+ 1697  ls
+ 1698  cd Embedded_Linux_Kitchen/
+ 1699  ls
+ 1700  mkdir Task3
+ 1701  git add .
+ 1702  git commit -m 'Preparing for Task3'
+ 1703  gi push
+ 1704  git push
+ 1705  git add .
+ 1706  git commit -m 'update readme'
+ 1707  cd ..
+ 1708  git add .
+ 1709  git commit -m 'updates'
+ 1710  git push
+ 1711  git checkout Embedded_ARM_Drivers 
+ 1712  git add .
+ 1713  git commit -m 'updates'
+ 1714  git push
+ 1715  git checkout Embedded_AVR_Drivers 
+ 1716  git add .
+ 1717  git commit -m 'updates'
+ 1718  git push
+ 1719  git checkout main
+ 1720  git pull
+ 1721  git checkout Embedded_Linux_Kitchen 
+ 1722  cd Embedded_Linux_Kitchen/
+ 1723  ls
+ 1724  mkdir Task3
+ 1725  cd Task3
+ 1726  touch ali
+ 1727  cd ..
+ 1728  git add .
+ 1729  git commit -m 'updates'
+ 1730  git push
+ 1731  git add .
+ 1732  git commit -m 'updates'
+ 1733  git push
+ 1734  git add .
+ 1735  git commit -m 'updates'
+ 1736  git push
+ 1737  git checkout main
+ 1738  git pull
+ 1739  git add .
+ 1740  git commit -m 'updates'
+ 1741  git push
+ 1742  git checkout Embedded_Linux_Kitchen 
+ 1743  cd Embedded_Linux_Kitchen/
+ 1744  cd Task
+ 1745  cd Task3
+ 1746  git checkout main
+ 1747  git checkout Embedded_Linux_Kitchen 
+ 1748  cd Embedded_Linux_Kitchen/
+ 1749  cd Task3
+ 1750  mkdir Emulated_sdCard
+ 1751  cd Emulated_sdCard/
+ 1752  dd if=/dev/zeros of=sd.img bs=1M count 1024
+ 1753  dd if=/dev/zeros of=sd.img bs=1M count=1024
+ 1754  dd if=/dev/zero of=sd.img bs=1M count=1024
+ 1755  cfdisk sd.img 
+ 1756  sudo losetup --partscan -f --show sd.img 
+ 1757  mkfs.vfat -F16 -n boot /dev/loop36p1
+ 1758  sudo mkfs.vfat -F16 -n boot /dev/loop36p1
+ 1759  sudo mkfs.ext4 -L rootfs /dev/loop36p2
+ 1760  ls /dev/loop36
+ 1761  ls /dev/loop*
+ 1762  sudo mount /dev/loop36p1 boot
+ 1763  mkdir boot
+ 1764  mkdir rootfs
+ 1765  sudo mount /dev/loop36p1 boot
+ 1766  sudo mount /dev/loop36p2 rootfs
+ 1767  lsblk
+ 1768  cd boot/
+ 1769  sudo touch bootcode.bin start.elf zImage config.txt u-boot
+ 1770  ls
+ 1771  cd ..
+ 1772  cd rootfs/
+ 1773  sudo mkdir proc etc bin usr sbin lib dev sys
+ 1774  ls
+ 1775  cd ..
+ 1776  cd boot/
+ 1777  ls
+ 1778  sudo vim zImage 
+ 1779  cd ..
+ 1780  ls
+ 1781  umount boot
+ 1782  sudi umont boot
+ 1783  sudo umont boot
+ 1784  sudo umount boot
+ 1785  sudo umount rootfs
+ 1786  lsblk
+ 1787  sudo losetup -d /dev/loop36
+ 1788  git clone git@github.com:crosstool-ng/crosstool-ng.git
+ 1789  cd crosstool-ng/
+ 1790  git checkout crosstool-ng-1.26.0
+ 1791  ./bootstrap 
+ 1792  ./configure --enable -local
+ 1793  cd config/
+ 1794  ./configure --enable -local
+ 1795  ls
+ 1796  cd ..
+ 1797  ./configure --enable -local
+ 1798  pwd
+ 1799  ./configure --help
+ 1800  ./configure --enable-local
+ 1801  git checkout 
+ 1802  git checkout Embedded_Linux_Kitchen
+ 1803  ls
+ 1804  ls -a
+ 1805  git clone git@github.com:u-boot/u-boot.git
+ 1806  ❯ git checkout v2025.01
+ 1807  cd u-boot/
+ 1808  ❯ git checkout v2025.01
+ 1809  git checkout v2025.01
+ 1810  cd configs/
+ 1811  ls | grep vex*
+ 1812  ls
+ 1813  ls | grep vex*
+ 1814  ls | grep vex
+ 1815  ls | grep rpi
+ 1816  cd ..
+ 1817  make rpi_3_b_plus_defconfig
+ 1818  make menuconfig
+ 1819  export CROSS_COMPILE=~/x-tools/aarch64-rpi3-linux-uclibc/bin/aarch64-rpi3-linux-uclibc-
+ 1820  make -j8
+ 1821  code .
+ 1822  make menuconfig
+ 1823  qemu-system-arm -M vexpress-a9 -kernel u-boot -S -s
+ 1824  qemu-system-arm -M vexpress-a9 -kernel u-boot -nographic -S -s
+ 1825  code .
+ 1826  qemu-system-arm -M vexpress-a9 -kernel u-boot -nographic 
+ 1827  cd configs/
+ 1828  ls | grep vex
+ 1829  cd ..
+ 1830  make vexpress_ca9x4_defconfig
+ 1831  export CROSS_COMPILE=~/x-tools/arm-Elmansoury-linux-uclibcgnueabihf/bin/arm-Elmansoury-linux-uclibcgnueabihf-
+ 1832  make -j8
+ 1833  qemu-system-arm -M vexpress-a9 -kernel u-boot -nographic -S -s
+ 1834  sudo mount /dev/loop11p1 boot
+ 1835  sudo losetup --partscan -f --show sd.img 
+ 1836  ls /dev/loop*
+ 1837  sudo mount /dev/loop36p1 boot
+ 1838  sudo mount /dev/loop36p2 rootfs
+ 1839  lsblk
+ 1840  ls
+ 1841  cd boot/
+ 1842  touch bootcode.bin start.elf zImage config.txt u-boot
+ 1843  sudo touch bootcode.bin start.elf zImage config.txt u-boot
+ 1844  ls
+ 1845  cd ../rootfs/
+ 1846  sudo mkdir proc etc bin usr sbin lib dev sys
+ 1847  ls
+ 1848  cd ..
+ 1849  sudo umount boot
+ 1850  ls
+ 1851  cd boot
+ 1852  ls
+ 1853  cd ..
+ 1854  sudo mount /dev/loop36p1 boot
+ 1855  cd boot
+ 1856  ls
+ 1857  cd ..
+ 1858  sudo dmesg
+ 1859  ls /dev/sd*
+ 1860  lsblk
+ 1861  sudo dd if=/dev/zero of=/dev/sdb bs=2M count=1
+ 1862  sudo cfdisk /dev/sdb
+ 1863  lsblk
+ 1864  sudo mkfs.vfat -F 16 -n boot /dev/sdb1
+ 1865  sudo mkfs.ext4 -L rootfs /dev/sdb2
+ 1866  lsblk
+ 1867  cd ..
+ 1868  ls
+ 1869  cd u-boot/
+ 1870  git checkout v2025.01
+ 1871  cd configs/
+ 1872  ls
+ 1873  ls | grep vex
+ 1874  cd ..
+ 1875  make vexpress_ca9x4_defconfig
+ 1876  menuconfig
+ 1877  make menuconfig
+ 1878  cat Makefile | grep CROSS_COMPILE
+ 1879  export CROSS_COMPILE=~/x-tools/arm-Elmansoury-linux-uclibcgnueabihf/bin/arm-Elmansoury-linux-uclibcgnueabihf-
+ 1880  make -j
+ 1881  sudo apt-get install libssl-dev
+ 1882  make -j
+ 1883  sudo apt-get install libgnutls28-dev
+ 1884  make -j
+ 1885  ls
+ 1886  file u-boot
+ 1887  qemu-system-arm -M ?
+ 1888  qemu-system-arm -M vexpress-a9 -kernel u-boot -nographic
+ 1889  qemu-system-arm -M vexpress-a9 -kernel u-boot -nographic -sd ../Emulated_sdCard/sd.img
+ 1890  cd ../Emulated_sdCard/
+ 1891  ls
+ 1892  cd boot/
+ 1893  vim zImage 
+ 1894  cat zImage 
+ 1895  sudo vim zImage 
+ 1896  cd ..
+ 1897  sudo umount boot
+ 1898  sudo umount rootfs
+ 1899  sync
+ 1900  cd ../u-boot/
+ 1901  qemu-system-arm -M vexpress-a9 -kernel u-boot -nographic -sd ../Emulated_sdCard/sd.img
+ 1902  sudo apt install minicom
+ 1903  sudo dmseg
+ 1904  sudo dmesg
+ 1905  sudo minicom -s /dev/ttyUSB0
+ 1906  lsblk
+ 1907  sudo umount boot
+ 1908  history > hist-16-1-2025.txt
+ 1909  sudo umount /dev/loop36p1
+ 1910  sudo umount /dev/loop36p2
+ 1911  lslk
+ 1912  lsblk
+ 1913  sudo losetup j sd.img
+ 1914  sudo losetup j ../Emulated_sdCard/sd.img
+ 1915  sudo losetup -j ../Emulated_sdCard/sd.img 
+ 1916  sudo losetup -d /dev/loop36
+ 1917  lsblk
+ 1918  history > ~/hist-16-1-2025.txt
+ 1919  cd configs/
+ 1920  ls | grep rpi3
+ 1921  ls | grep rpi
+ 1922  make rpi_3_b_plus_defconfig
+ 1923  cd ..
+ 1924  make rpi_3_b_plus_defconfig
+ 1925  make menuconfig
+ 1926  export CROSS_COMPILE=~/x-tools/aarch64-rpi3-linux-uclibc/bin/aarch64-rpi3-linux-uclibc-
+ 1927  make -j
+ 1928  file u-boot
+ 1929  cd configs/
+ 1930  ls | grep vex
+ 1931  cd ..
+ 1932  make vexpress_ca9x4_defconfig
+ 1933  make menuconfig
+ 1934  export CROSS_COMPILE=~/x-tools/arm-Elmansoury-linux-uclibcgnueabihf/bin/arm-Elmansoury-linux-uclibcgnueabihf-
+ 1935  make -j
+ 1936  code .
+ 1937  qemu-system-arm -M vexpress-a9 -kernel u-boot -nographic -S -s
+ 1938  pwd
+ 1939  mkdir rpi_linux
+ 1940  cd rpi_linux/
+ 1941  git clone git@github.com:raspberrypi/linux.git --depth=1
+ 1942  cd ..
+ 1943  rm -rf rpi_linux/
+ 1944  mkdir rpi_linux
+ 1945  cd rpi_linux/
+ 1946  git clone git@github.com:raspberrypi/linux.git --depth=1
+ 1947  ls
+ 1948  cd linux/
+ 1949  ls
+ 1950  cd ..
+ 1951  git clone git@github.com:torvalds/linux.git --branch v6.13-rc7 --depth 1
+ 1952  cd linux/
+ 1953  ls
+ 1954  cd ..
+ 1955  cd ITI-9Months-ES/Embedded_Linux_Kitchen/u-boot/
+ 1956  qemu-system-arm -M vexpress-a9 -kernel u-boot -nographic -S -s
+ 1957  qemu-system-arm -M vexpress-a9 -kernel u-boot -nographic -S -s
+ 1958  make -j12
+ 1959  sudo minicom /dev/ttyUSB0
+ 1960  cd x-tools/aarch64-rpi3-linux-uclibc/
+ 1961  ls
+ 1962  cd bin
+ 1963  ls
+ 1964  pwd
+ 1965  gedit .bashrc
+ 1966  source .bashrc
+ 1967  gedit .bashrc
+ 1968  source .bashrc
+ 1969  cd ITI-9Months-ES/Embedded_Linux_Kitchen/Task3/
+ 1970  ls
+ 1971  rpi3bp -nostdlib -T linkerScript.ld startup.S main.c -o gpio.elf -I GPIO.h 
+ 1972  rpi3bp -nostdlib -T linkerScript.ld startup.S main.c -o gpio.elf
+ 1973  rm -r gpio.elf 
+ 1974  cd ITI-9Months-ES/Embedded_Linux_Kitchen/Task3/
+ 1975  ls
+ 1976  rpi3bp -nostdlib -T linkerScript.ld startup.S main.c -o gpio.elf
+ 1977  aarch64-rpi3-linux-uclibc-objcopy -O binary gpio.elf gpio.img
+ 1978  sudo minicom /dev/ttyUSB0
+ 1979  nproc
+ 1980  sudo mv bc bcfg
+ 1981  gedit .bashrc
+ 1982  cd ..
+ 1983  ;s
+ 1984  cd ..
+ 1985  ls
+ 1986  cd usr
+ 1987  ls
+ 1988  cd bin
+ 1989  ls
+ 1990  cd local
+ 1991  cd ..
+ 1992  ls
+ 1993  cd local
+ 1994  ls
+ 1995  cd bin
+ 1996  ls
+ 1997  gedit zizo.txt
+ 1998  rm -r zizo.txt
+ 1999  exit
+ 2000  cd ITI-9Months-ES/Embedded_Linux_Kitchen/Emulated_sdCard/
+ 2001  sudo losetup --partscan -f --show sd.img 
+ 2002  sudo mount /dev/loop36p1 boot
+ 2003  sudo mount /dev/loop36p2 rootfs
+ 2004  cd boot/
+ 2005  ls
+ 2006  cat zImage 
+ 2007  sudo apt-get install u-boot-tools
+ 2008  gedit env.txt
+ 2009  sudo gedit env.txt
+ 2010  nano env.sh
+ 2011  sudo nano env.sh
+ 2012  sudo chmod +x env.sh
+ 2013  ./env.sh 
+ 2014  sudo ./env.sh 
+ 2015  ls /etc/fw_env.config
+ 2016  strings uboot.env
+ 2017  fw_setenv -s uboot.env "bootcmd" "fatload mmc 0:1 0x60000000 zImage"
+ 2018  sudo nano /etc/fw_env.config
+ 2019  fw_setenv -s uboot.env "bootcmd" "fatload mmc 0:1 0x60000000 zImage"
+ 2020  strings uboot.env
+ 2021  fw_printenv -c /etc/fw_env.config
+ 2022  dd if=/dev/zero of=uboot.env bs=1 count=$((0x4000))
+ 2023  sudo dd if=/dev/zero of=uboot.env bs=1 count=$((0x4000))
+ 2024  pwd
+ 2025  sudo nano /etc/fw_env.config
+ 2026  fw_setenv -c /etc/fw_env.config bootcmd "fatload mmc 0:1 0x60000000 zImage"
+ 2027  strings uboot.env
+ 2028  fw_printenv -c /etc/fw_env.config
+ 2029  chmod 644 /home/ali/ITI-9Months-ES/Embedded_Linux_Kitchen/Emulated_sdCard/boot/uboot.env
+ 2030  sudo chmod 644 /home/ali/ITI-9Months-ES/Embedded_Linux_Kitchen/Emulated_sdCard/boot/uboot.env
+ 2031  fw_setenv -c /etc/fw_env.config bootcmd "fatload mmc 0:1 0x60000000 zImage"
+ 2032  fw_printenv -c /etc/fw_env.config
+ 2033  fw_setenv --help
+ 2034  strings uboot.env
+ 2035  cat uboot.env 
+ 2036  fw_printenv -c /etc/fw_env.config
+ 2037  sudo apt-get install u-boot-tools
+ 2038  mkenvimage -s 4096 -o uboot.env env.txt
+ 2039  sudo mkenvimage -s 4096 -o uboot.env env.txt
+ 2040  strings uboot.env
+ 2041  fw_printenv -c /etc/fw_env.config
+ 2042  sudo nano /etc/fw_env.config
+ 2043  sudo chmod 666 /home/ali/ITI-9Months-ES/Embedded_Linux_Kitchen/Emulated_sdCard/boot/uboot.env
+ 2044  sudo fw_printenv -c /etc/fw_env.config
+ 2045  sudo chmod 644 /etc/fw_env.config
+ 2046  sudo fw_printenv -c /etc/fw_env.config
+ 2047  sudo fw_printenv -c /etc/fw_env.config -d
+ 2048  sudo fw_printenv -c /etc/fw_env.config
+ 2049  strings uboot.env
+ 2050  sync
+ 2051  strings uboot.env
+ 2052  sudo umount root
+ 2053  cd ..
+ 2054  sudo umount boot
+ 2055  sudo umount rootfs
+ 2056  sync
+ 2057  sudo umount boot
+ 2058  sync
+ 2059  sudo mount /dev/loop36p1 boot
+ 2060  sudo mount /dev/loop36p2 rootfs
+ 2061  cd boot/
+ 2062  strings uboot.env
+ 2063  sudo fw_printenv -c /etc/fw_env.config
+ 2064  rm uboot.env
+ 2065  ls
+ 2066  cd ..
+ 2067  sudo umount boot
+ 2068  sudo umount rootfs
+ 2069  sync
+ 2070  sudo mount /dev/loop36p1 boot
+ 2071  sudo mount /dev/loop36p2 rootfs
+ 2072  sync
+ 2073  cd boot/
+ 2074  strings uboot.env
+ 2075  sudo fw_printenv -c /etc/fw_env.config
+ 2076  rm env.sh
+ 2077  mkenvimage -s 0x40000 -o uboot.env env.txt
+ 2078  sudo mkenvimage -s 0x40000 -o uboot.env env.txt
+ 2079  sudo umount boot
+ 2080  cd ..
+ 2081  sudo umount boot
+ 2082  sudo umount rootfs
+ 2083  sync
+ 2084  sudo mount /dev/loop36p2 rootfs
+ 2085  sudo mount /dev/loop36p1 boot
+ 2086  sync
+ 2087  cd boot/
+ 2088  strings uboot.env
+ 2089  dos2unix env.txt
+ 2090  sudo apt install dos2unix
+ 2091  dos2unix env.txt
+ 2092  sudo dos2unix env.txt
+ 2093  cat -A env.txt
+ 2094  sed -i 's/[[:space:]]*$//' env.txt
+ 2095  sudo sed -i 's/[[:space:]]*$//' env.txt
+ 2096  sudo dos2unix env.txt
+ 2097  cat -A env.txt
+ 2098  sudo mkenvimage -s 0x40000 -o uboot.env env.txt
+ 2099  cd ..
+ 2100  sudo umount boot
+ 2101  sudo umount rootfs
+ 2102  sync
+ 2103  sudo mount /dev/loop36p1 boot
+ 2104  sudo mount /dev/loop36p2 rootfs
+ 2105  cd boot/
+ 2106  strings uboot.env
+ 2107  sudo nano env.txt 
+ 2108  sudo nano env.sh
+ 2109  sudo chmod +x env.sh
+ 2110  sudo nano env.txt 
+ 2111  sudo nano gpio
+ 2112  ls
+ 2113  sudo ./env.sh env.txt
+ 2114  cd ..
+ 2115  sudo umount rootfs
+ 2116  sudo umount boot
+ 2117  sync
+ 2118  sudo mount /dev/loop36p1 boot
+ 2119  sudo mount /dev/loop36p2 rootfs
+ 2120  cd boot/
+ 2121  strings uboot.env
+ 2122  sudo nano env.txt 
+ 2123  sudo ./env.sh env.txt
+ 2124  cd ..
+ 2125  sudo umount rootfs
+ 2126  sudo umount boot
+ 2127  sync
+ 2128  sudo mount /dev/loop36p1 boot
+ 2129  sudo mount /dev/loop36p2 rootfs
+ 2130  cd boot/
+ 2131  strings uboot.env
+ 2132  sudo nano env.txt 
+ 2133  sudo nano env.sh
+ 2134  gedit env.sh
+ 2135  sudo gedit env.sh
+ 2136  sudo chmod +x env.sh
+ 2137  sudo ./env.sh env.txt
+ 2138  sudo umount rootfs
+ 2139  cd ..
+ 2140  sudo umount rootfs
+ 2141  sudo umount boot
+ 2142  sync
+ 2143  sudo mount /dev/loop36p1 boot
+ 2144  sudo mount /dev/loop36p2 rootfs
+ 2145  cd boot/
+ 2146  strings uboot.env
+ 2147  cd ..
+ 2148  sudo umount boot
+ 2149  sudo umount rootfs
+ 2150  sudo mount /dev/loop36p1 boot
+ 2151  sudo mount /dev/loop36p2 rootfs
+ 2152  cd boot/
+ 2153  sudo nano env.txt 
+ 2154  sudo ./env.sh env.txt
+ 2155  sudo umount boot
+ 2156  cd ..
+ 2157  sudo umount rootfs
+ 2158  sudo umount boot
+ 2159  sync
+ 2160  sudo mount /dev/loop36p1 boot
+ 2161  sudo mount /dev/loop36p2 rootfs
+ 2162  cd boot/
+ 2163  strings uboot.env
+ 2164  rm zImage 
+ 2165  ls
+ 2166  rm -rf zImage 
+ 2167  sudo rm -rf zImage 
+ 2168  sudo apt install tftpd-hpa
+ 2169  sudo nano env.txt 
+ 2170  sudo ./env.sh env.txt
+ 2171  cd ..
+ 2172  sudo umount rootfs
+ 2173  sudo umount boot
+ 2174  sync
+ 2175  sudo mount /dev/loop36p2 rootfs
+ 2176  sudo mount /dev/loop36p1 boot
+ 2177  cd boot/
+ 2178  strings uboot.env
+ 2179  sudo nano env.txt 
+ 2180  sudo ./env.sh env.txt
+ 2181  sudo umount rootfs
+ 2182  cd ..
+ 2183  sudo umount rootfs
+ 2184  sudo umount boot
+ 2185  sync
+ 2186  sudo mount /dev/loop36p1 boot
+ 2187  sudo mount /dev/loop36p2 rootfs
+ 2188  strings uboot.env
+ 2189  cd boot/
+ 2190  strings uboot.env
+ 2191  ip a add 192.168.1.19/24 dev tap0
+ 2192  sudo ip a add 192.168.1.19/24 dev tap0
+ 2193  ifcongig
+ 2194  ifconfig
+ 2195  ls /srv/tftp
+ 2196  ls
+ 2197  cp ~/ITI-9Months-ES/Embedded_Linux_Kitchen/Task3_RPI_BareMetal_LED/zImage /srv/tftp
+ 2198  sudo cp ~/ITI-9Months-ES/Embedded_Linux_Kitchen/Task3_RPI_BareMetal_LED/zImage /srv/tftp
+ 2199  ls
+ 2200  ls /srv/tftp
+ 2201  ss tupln
+ 2202  ss -tupln
+ 2203  systemctl restart tftpd-hpa.service 
+ 2204  systemctl status tftpd-hpa.service 
+ 2205  ss -tupln
+ 2206  ls /srv/tftp
+ 2207  cat /srv/tftp/zImage 
+ 2208  ifconfig
+ 2209  sudo ip a add 192.168.1.19/24 dev tap0
+ 2210  ifconfig
+ 2211  sudo ip a add 192.168.1.19/24 dev tap0
+ 2212  ifconfig
+ 2213  ls -l /srv/tftp/zImage
+ 2214  sudo systemctl status tftpd-hpa
+ 2215  cat /etc/default/tftpd-hpa 
+ 2216  sudo nano /etc/default/tftpd-hpa 
+ 2217  sudo systemctl restart tftpd-hpa
+ 2218  sudo systemctl status tftpd-hpa
+ 2219  cat /etc/default/tftpd-hpa 
+ 2220  ifconfig
+ 2221  sudo ip a add 192.168.1.19/24 dev tap0
+ 2222  ifconfig
+ 2223  cat /etc/default/tftpd-hpa 
+ 2224  sudo ufw status
+ 2225  sudo ufw allow 69/udp
+ 2226  sudo ufw status
+ 2227  cp ~/ITI-9Months-ES/Embedded_Linux_Kitchen/Task3_RPI_BareMetal_LED/zImage .
+ 2228  sudo cp ~/ITI-9Months-ES/Embedded_Linux_Kitchen/Task3_RPI_BareMetal_LED/zImage .
+ 2229  cd ..
+ 2230  sudo umount boot
+ 2231  sudo umount rootfs
+ 2232  history > cmds_hist_20/1.txt
+ 2233  history >> cmds_hist_20/1.txt
+ 2234  history >> cmds_hist_20-1.txt
