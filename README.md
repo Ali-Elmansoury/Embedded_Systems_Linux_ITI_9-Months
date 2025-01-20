@@ -27,7 +27,9 @@
 
 12. [Task2_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task2_Qemu_RPI_Uboot/)
 
-13. [Task3_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task3)
+13. [Task3_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task3_RPI_BareMetal_LED)
+
+14. [Task4_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task4_Building_Kernel_Inage_Script_Uboot_env)
 
 ---
 
