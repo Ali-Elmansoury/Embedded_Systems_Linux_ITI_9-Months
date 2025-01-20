@@ -6,7 +6,7 @@
 build
 crosstool-ng/
 u-boot/
-Emulated_SdCard/
+Emulated_sdCard/
 rpi_linux/
 linux/
 
