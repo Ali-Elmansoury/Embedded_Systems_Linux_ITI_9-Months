@@ -1,0 +1,12 @@
+*.o
+*.bin
+*.hex
+*.elf
+*.exe
+build
+crosstool-ng/
+u-boot/
+Emulated_SdCard/
+rpi_linux/
+linux/
+
