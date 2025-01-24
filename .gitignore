@@ -5,8 +5,10 @@
 *.exe
 build
 crosstool-ng/
-u-boot/
+qemu_uboot/
+rpi_uboot/
 Emulated_sdCard/
 rpi_linux/
 linux/
-
+qemu_busybox/
+rpi_busybox/
