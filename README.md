@@ -27,6 +27,12 @@
 
 12. [Task4_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task4_Building_Kernel_Inage_Script_Uboot_env)
 
+13. [Task5_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task5_Bootargs_Bootflow_scan/)
+
+14. [Task6_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task6_init_rootramfs/)
+
+15. [Task7_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task7_switch_root/)
+
 ---
 
 *Ali Mohamed Ali Elmansoury*  
