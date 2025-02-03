@@ -12,3 +12,10 @@ rpi_linux/
 linux/
 qemu_busybox/
 rpi_busybox/
+dash/
+envs/
+rpi_built_kernel/
+qemu_built_kernel/
+3-feb_rpi_boot_rootfs_v1/
+last_ver_sd_card/
+buildroot/

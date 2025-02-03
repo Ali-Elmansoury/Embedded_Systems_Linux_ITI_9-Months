@@ -1,0 +1,9 @@
+mkdir /newroot
+
+mount /dev/sda2 /newroot
+
+mount --move /dev /newroot/dev
+
+mount --move /proc /newroot/proc
+
+mount --move /sys /newroot/sys
