@@ -33,6 +33,8 @@
 
 15. [Task7_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task7_switch_root/)
 
+16. [Task8_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task8_Boot_on_buildroot_&_SSH_rpi/)
+
 ---
 
 *Ali Mohamed Ali Elmansoury*  
