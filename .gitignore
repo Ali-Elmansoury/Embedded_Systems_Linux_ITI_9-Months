@@ -19,3 +19,6 @@ qemu_built_kernel/
 3-feb_rpi_boot_rootfs_v1/
 last_ver_sd_card/
 buildroot/
+buildroot_custom_imageV1.0/
+Yocto/
+Qt_Buildroot_Image/

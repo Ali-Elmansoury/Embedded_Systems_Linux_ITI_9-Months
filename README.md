@@ -23,17 +23,19 @@
 
 10. [Task2_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task2_Qemu_RPI_Uboot/)
 
-11. [Task3_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task3_RPI_BareMetal_LED)
+11. [Task3_SideTask_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task3_SideTask_Uboot_Source_Code_Print_Edit)
 
-12. [Task4_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task4_Building_Kernel_Inage_Script_Uboot_env)
+12. [Task3_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task3_RPI_BareMetal_LED)
 
-13. [Task5_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task5_Bootargs_Bootflow_scan/)
+13. [Task4_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task4_Building_Kernel_Inage_Script_Uboot_env)
 
-14. [Task6_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task6_init_rootramfs/)
+14. [Task5_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task5_Bootargs_Bootflow_scan/)
 
-15. [Task7_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task7_switch_root/)
+15. [Task6_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task6_init_rootramfs/)
 
-16. [Task8_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task8_Boot_on_buildroot_&_SSH_rpi/)
+16. [Task7_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task7_switch_root/)
+
+17. [Task8_EmbeddedLinuxKitchen](Embedded_Linux_Kitchen/Task8_Boot_on_buildroot_&_SSH_rpi/)
 
 ---
 
